@@ -1,0 +1,35 @@
+header {
+height: 300 px; 
+color: white;
+background: #3CB371;
+text-align: center;
+font-size: 130%;
+padding:10px;
+}
+#l{
+	float: left;
+	background: #FAEBD7;
+	width: 55%;
+	height: 450 px;
+}
+#t {
+	background: #FAEBD7;
+	width: 44%;
+	height: 450 px;
+	
+}
+#r{
+padding: 3px;
+margin: 15px;
+border-style:dashed;
+border-bottom-color: 3CB371;
+border-width: 2px;
+}
+footer{
+height: 300 px; 
+color: white;
+background: #3CB371;
+text-align: center;
+font-size: 130%;
+padding:10px;	
+}
