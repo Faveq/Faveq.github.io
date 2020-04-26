@@ -5,3 +5,11 @@ text-decoration: none;
 a:hover{
 text-decoration: underline;
 } 
+.Main{
+
+word-spacing:25px;
+font-size: large;
+ width:100%;
+  height:8%;
+  background-color: CCFF99;
+}
