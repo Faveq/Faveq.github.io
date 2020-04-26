@@ -5,7 +5,7 @@ text-decoration: none;
 a:hover{
 text-decoration: underline;
 } 
-.Main{
+body{
 font-family: 'Lucida Console';
 word-spacing:25px;
 font-size: large;
