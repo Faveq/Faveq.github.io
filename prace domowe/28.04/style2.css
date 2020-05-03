@@ -1,0 +1,37 @@
+body{
+font-family:Verdana;
+color:#2F2F2F;
+
+}
+#b1{
+	background-color: #DCDCDC;
+	width: 55%;
+	height: 80px;
+	text-align: center;
+	float: left;
+}
+ #b2,#b3,#b4{
+	background-color: #DCDCDC;
+	width: 15%;
+	height: 80px;
+	float: left;
+}
+#l{
+		background-color: #808080;
+		width:30%;
+		height:450px;
+float: left;
+}
+#p{
+		background-color: #808080;
+		width:70%;
+		height:450px;
+float: left;
+}
+#s{
+	background-color: #DCDCDC;
+	text-align: center;
+}
+input{
+	color:gray;
+}
