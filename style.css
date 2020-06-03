@@ -16,6 +16,8 @@ font-size: large;
 n{
 text-align: center;
   font-family: Courier New;
+  border-style:dashed;
+  border-color:green;
 }
 .Omnie{
   position:relative; top:1cm; bottom:1cm;
