@@ -13,8 +13,9 @@ font-size: large;
   height:8%;
   background-color: #CCFF99;
 }
-header{
+n{
 text-align: center;
+  font-family: Courier New;
 }
 .Omnie{
   position:relative; top:1cm; bottom:1cm;
