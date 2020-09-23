@@ -1,0 +1,36 @@
+#N{
+	background-color:#829EB9;
+	text-align:center;
+	height:80px;
+	font-family:Arial;
+	padding-top:10px;
+}
+#l{
+	background-color:#B3C6D9;
+	text-align:center;
+	height: 500px;
+	font-size:20px;
+	padding-top:100px;
+	width:25%;
+	float:left;
+	
+}
+#p{
+	background-color:#E0E9F1;
+	text-align:center;
+	height: 500px;
+	font-size:20px;
+	padding-top:100px;
+	width:75%;
+	float:right;
+}
+footer{
+	background-color:yellow;
+	text-align:center;
+	font-family:Arial;
+
+}
+img {
+	margin:30px;
+	padding:10px;
+}
