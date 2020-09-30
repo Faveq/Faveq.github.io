@@ -2,6 +2,7 @@
 <head>
 <title>Działania matematyczne</title>
 <link rel="stylesheet" href="style.css">
+<script src="oblicz.js"></script>
 </head>
 <body>
 <div id="b1">
@@ -18,15 +19,14 @@
 </div>
 <div id="l">
 <h3>prroste działania</h3>
-<label>Liczba A:</label>
-<input type="number"></input>
-<label>Liczba B:</label>
-<input type="number"></input><br/>
-<button>+</button>
-<button>-</button>
-<button>*</button>
-<button>/</button>
-<button>A^B</button>
+<label>Podaj liczbę A:</label><input type="number" id="a"><br>
+<label>Podaj liczbę B:</label><input type="number" id="b""><br>
+<button><input type="button" value="+" onclick="dodaj()"></button>
+<button><input type="button" value="-" onclick="odejmij()"></button>
+<button><input type="button" value="*" onclick="mnozenie()"></button>
+<button><input type="button" value="/" onclick="dzielenie()"></button>
+<button><input type="button" value="A*B" onclick="potega()"></button>
+<p id="wynik"></p>
 </div>
 <div id="p">
 <ul>
