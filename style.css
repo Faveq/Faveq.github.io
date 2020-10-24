@@ -1,0 +1,149 @@
+body {
+    padding; 0;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(https://pcmod.pl/wp-content/uploads/2015/12/programowanie-1-1920x1080.jpg)
+
+  }
+  button{
+    background-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-top: 400px;
+}
+  
+  
+  .side-menu-trigger {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border: none;
+    
+  }
+  
+  .side-menu {
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    top: 0px;
+    padding: 0;
+    background: white;
+    transition: 0.3s transform ease-in-out;
+  }
+  
+  .side-menu ul {
+    position: absolute;
+    display: flex;
+    height: calc(100% - 20px);
+    flex-wrap: wrap;
+    margin: 0 10px;
+    padding: 0;
+    list-style-type: none;
+    align-content: flex-start
+  }
+  
+  .side-menu ul li {
+    display: flex;
+    height: 30px;
+    background: gray;
+    flex-basis: 100%;
+    margin-top: 20px;
+    color: #696e9e;
+    border-radius: 5px;
+    overflow: hidden;
+    
+  }
+  
+  .side-menu ul li a {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background:#99CC66;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  .side-menu ul li a:hover {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background:#66FFFF;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: solid;
+    border-width: 2px;
+    border-color: #0066FF;
+  }
+a{
+    color:#003333;
+    font-family: URW Chancery L;
+    font-variant: small-caps;
+}
+
+  .side-menu-trigger:focus ~.side-menu, .side-menu  {
+    transform: translateX(-300px); 
+      }
+      .side-menu-trigger:focus ~ .side-menu, .side-menu:hover  {
+        transform: translateX(0px); 
+          }
+#git{
+    margin-top: 25px;
+    margin-left: 40px;
+
+}
+#fb{
+    
+    margin-top: 25px;
+    margin-left: 40px;
+}
+#ig{
+    
+    margin-top: 26px;
+    margin-left: 40px;
+}
+#git:hover{
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 35px;
+    height: 36px;
+
+}
+#ig:hover{
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 46px;
+    height: 34px;
+
+}
+#fb:hover{
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 34px;
+    height: 35px;
+
+}
+#dom{
+    margin-top: 590px;
+    margin-left:  170px;
+}
+#dom:hover{
+    margin-top: 590px;
+    margin-left: 170px;
+    width: 108px;
+    height: 77px;
+}
+h1{
+    color: white;
+    
+    font-size: 72px;
+    transform: rotate(6deg);
+    margin-left:760px;
+    margin-top:5px;
+}
