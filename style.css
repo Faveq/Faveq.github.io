@@ -1,0 +1,292 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  button{
+    background-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-top: 400px;
+}
+  
+  
+  .side-menu-trigger {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border: none;
+    
+  }
+  
+  .side-menu {
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    top: 0px;
+    padding: 0;
+    background: white;
+    transition: 0.3s transform ease-in-out;
+  }
+  
+  .side-menu ul {
+    position: absolute;
+    display: flex;
+    height: calc(100% - 20px);
+    flex-wrap: wrap;
+    margin: 0 10px;
+    padding: 0;
+    list-style-type: none;
+    align-content: flex-start
+  }
+  
+  .side-menu ul li {
+    display: flex;
+    height: 30px;
+    background: gray;
+    flex-basis: 100%;
+    margin-top: 20px;
+    color: #696e9e;
+    border-radius: 5px;
+    overflow: hidden;
+    
+  }
+  
+  .side-menu ul li a {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background:#99CC66;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  .side-menu ul li a:hover {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background:#66FFFF;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: solid;
+    border-width: 2px;
+    border-color: #0066FF;
+  }
+a{
+    color:#003333;
+    font-family: URW Chancery L;
+    font-variant: small-caps;
+}
+
+  .side-menu-trigger:focus ~.side-menu, .side-menu  {
+    transform: translateX(-300px); 
+      }
+      .side-menu-trigger:focus ~ .side-menu, .side-menu:hover  {
+        transform: translateX(0px); 
+          }
+#git{
+    margin-top: 25px;
+    margin-left: 40px;
+
+}
+#fb{
+    
+    margin-top: 25px;
+    margin-left: 40px;
+}
+#ig{
+    
+    margin-top: 26px;
+    margin-left: 40px;
+}
+#git:hover{
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 35px;
+    height: 36px;
+
+}
+#ig:hover{
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 46px;
+    height: 34px;
+
+}
+#fb:hover{
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 34px;
+    height: 35px;
+
+}
+#dom{
+   clear: both;
+    position: fixed;
+    bottom: 0;
+  
+}
+#dom:hover{ 
+    width: 108px;
+    height: 77px;
+}
+#home{
+  margin-top: 590px;
+  margin-left: 170px;
+}
+
+#cytat{ 
+  font-size: 24px;
+  margin-top: 100 px;
+  font-variant: small-caps;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+ letter-spacing: 0.2px;
+ word-spacing: -0.2px;
+ color: #000000;
+ font-weight: 400;
+ text-decoration: none;
+ font-style: italic;
+ font-variant: normal;
+ text-transform: none;
+    
+    
+}
+h1 {
+  display: flex;
+  transform: rotate(6deg);
+  margin-left:570px;
+  margin-top:-20px;
+  font-family:Brush Script MT, Brush Script Std;
+  font-weight: 800;
+  color: White;
+  font-size: 3em;
+  }
+  @keyframes pop-up {
+    0%{transform: scale(0) translateY(-10px); opacity: 0;}
+    80%{transform: scale(1.2) translateY(-2px); opacity: .8;}
+    100%{transform: scale(1) translateY(0px); opacity: 1;}
+    }
+    .letter {
+      transform: scale(0);
+      animation: pop-up .25s forwards;
+      }
+    
+        h1{
+          color: White;
+          
+          font-size: 72px;
+          transform: rotate(6deg);
+          margin-left:620px;
+          margin-top:-20px;
+          
+      }
+      #om{
+  
+        float: left;
+        font-family:URW Chancery L, cursive;
+        color: White;
+        font-size: xx-large;
+        margin-top: -500px;
+        margin-left: 200px;
+      }
+      #obrazek1{
+           margin-left: 880px;
+           margin-top: -300px;
+           position: absolute;
+       }
+       #obrazek2{
+        margin-left: 750px;
+        margin-top: -100px;
+        position: absolute;
+    }
+    #obrazek3{
+      margin-left: 880px;
+      margin-top: 100px;
+      position: absolute;
+  }
+  #obrazek4{
+    margin-left: 750px;
+    margin-top: 300px;
+    position: absolute;
+}
+#obrazek1 :hover{
+  margin-left: 0px;
+  margin-top: 0px;
+  position: absolute;
+  width: 350px;
+  height: 197px;
+}
+#obrazek2 :hover{
+margin-left: 0px;
+margin-top: 0px;
+position: absolute;
+width: 350px;
+height: 197px;
+}
+#obrazek3 :hover{
+  margin-left: 0px;
+margin-top: 0px;
+width: 350px;
+height: 197px;
+}
+#obrazek4 :hover{
+margin-left: 0px;
+margin-top: 0px;
+position: absolute;
+width: 350px;
+height: 197px;
+}
+#szkola{
+  margin-left: 310px;
+  margin-top: -380px;
+  font-size: xx-large;
+  color: lime;
+  position: fixed;
+}
+#sz{
+  margin-left: 400px;;
+  margin-top: -270px;
+  position: fixed;
+  transform: rotate(0.5deg);
+}
+#hymn{
+margin-left: 700px;
+margin-top: 0px;
+position: absolute;
+text-align: center;
+
+}
+#h{
+  font-size: x-large;
+  text-align: center;
+  color: lime;
+}
+#projekt{
+  color: white;
+  font-size: 32px;
+  margin-left:150px;
+  margin-top:-400px;
+}
+#p{
+  color: white;
+ 
+}
+a :visited{
+  color: gray;
+}
+#mail{
+  text-align: center;
+  font-size: 72px;
+  margin-top: -200px;
+}
+#m{
+  font-variant: normal;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+}
