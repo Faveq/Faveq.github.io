@@ -1,0 +1,56 @@
+body{
+    font-family: Georgia;
+}
+#baner{
+    background-color: #824555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#j, #d {
+    background-color: #A26475 ;
+    color: white;
+    width: 30%;
+    height: 300px;
+    float: left;
+}
+#t{
+    background-color:  #A26475;
+    color: white;
+    width: 40%;
+    height: 300px;
+    text-align: right;
+    float: left;
+}
+#glowny{
+    background-color: #F0EAE2;
+    padding: 50px;
+}
+footer{
+    background-color: #824555;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+table, td, th{
+    border-style: solid;
+    mask-border-width: 2px;
+    border-color: #69293A;
+    padding: 7px;
+    border-collapse: collapse;
+}
+ul{
+    list-style: square;
+}
+#red{
+    background-color:  red;
+    padding: 7px;
+}
+#blue{
+    background-color:  blue;
+    padding: 7px;
+}
+#green{
+    background-color: green;
+    padding: 7px;
+}
