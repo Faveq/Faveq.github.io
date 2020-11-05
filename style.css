@@ -66,17 +66,17 @@ body {
     text-decoration: none;
     box-sizing: border-box;
   }
-  .side-menu ul li a:hover {
+.side-menu ul li a:hover {
     display: flex;
     padding: 10px;
     align-items: center;
     width: 100%;
     height: 100%;
-    background:#66FFFF;
+    background:lightgreen;
     text-decoration: none;
     box-sizing: border-box;
     border: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #0066FF;
   }
 a{
