@@ -1,5 +1,5 @@
+
 header {
-height: 300 px; 
 color: white;
 background: #3CB371;
 text-align: center;
@@ -10,27 +10,31 @@ padding:10px;
 	float: left;
 	background: #FAEBD7;
 	width: 55%;
-	height: 450 px;
+	height: 450px;
 }
 #t {
 	background: #FAEBD7;
-	width: 44%;
-	height: 450 px;
+	width: 45%;
+	height: 450px;
 	float: left;
 }
 #r{
 padding: 3px;
 margin: 15px;
-border-style:dashed;
-border-bottom-color: 3CB371;
-border-width: 2px;
-	float: left;
+float: left;
 }
-footer{
-height: 300 px; 
+#s{
+width: 100%;
 color: white;
 background: #3CB371;
 text-align: center;
 font-size: 130%;
 padding:10px;	
+}
+img{
+    padding: 3px;
+	margin: 15px;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: #3CB371;
 }
