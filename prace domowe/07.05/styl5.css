@@ -1,37 +1,41 @@
 body{
-	font-family:Tahoma;
+    font-family:Tahoma;
+
 }
 #b1, #b3{
 	background-color: RosyBrown;
 	color:white;
 	width:30%;
-	height:200px;
+    height:200px;
+    float: left;
 	
 }
-#b1{
-	float:left;
-}
-#b3{
-	float:right;
-}
+
 #b2{	
     background-color: RosyBrown;
 	color:white;
 	width:40%;
 	height:200px;
 	text-align:center;
-float:center;
+float:left;
 }
 #g{
 	background-color: Wheat;
-	margin:50 px;
+	padding:50px;
 	}
 #s{
 	background-color: RosyBrown;
 	color:white;
-	text-align:center;
+    text-align:center;
+    height: 61px;
 }
 a{
-	border:2px;
-	border-color:DarkRed;
+    border: solid;
+	border-width: 2px;
+	border-color: DarkRed;
+	background: Salmon;
+	color: DarkRed;
+	padding: 20px;
+    line-height: 200px;
+    
 }
