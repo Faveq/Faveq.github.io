@@ -1,11 +1,10 @@
 body{
-	font-family: Geoergia;
-	margin:0;
+	font-family: Georgia;
 }
 #b1,#b2,#b3,#s1,#s2,#s3{
 	background-color: Sienna;
 	color:white;
-	height:150 px;
+	height:150px;
 	float:left;
 }
 #b1,#s1{
@@ -13,11 +12,13 @@ body{
 }
 #b2,#s2{
 	width:50%;
-	font-size:150%;
+    font-size:150%;
+    float: left;
 }
 #b3,#s3{
 	width:10%;
-	text-align:center;
+    text-align:center;
+    float: left;
 }
 #g{
 	background-color:Tan;
@@ -25,11 +26,14 @@ body{
 	padding-top:200px;
 }
 a {
-	border-style:dashed;
-	border-width:1px;
-	border-color:Sienna;
-	background-color:Tan;
-	padding:40 px;
+	border: dashed;
+	border-width: 1px;
+	border-color: Sienna;
+	background: Tan;
+	color: Sienna;
+	padding: 40px;
+	line-height: 150px;
+}
 }
 li{
 	list-style-type:circle;
