@@ -1,0 +1,40 @@
+header {
+	background: #4E885C;
+	color: orange;
+	text-align: center;
+	height: 110px;
+}
+#l {
+	background: #72a37d;
+	width: 30%;
+	height: 300px;
+	float: left;
+}
+#s {
+	background: url(pizza.png) no-repeat #a2c3a9;
+	width: 40%;
+	height: 300px;
+	float: left;
+}
+#p {
+	background: #72a37d;
+	text-align: center;
+	width: 30%;
+	height: 300px;
+	float: left;
+}
+#d {
+	background: #a2c3a9;
+	text-align: center;
+	height: 250px;
+	clear: both;
+}
+footer {
+	background: #4E885C;
+	color: orange;
+}
+#p a {
+	background: orange;
+	color: green;
+	padding: 15px;
+}
