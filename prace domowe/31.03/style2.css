@@ -16,7 +16,7 @@ padding:10px;
 	background: #FAEBD7;
 	width: 44%;
 	height: 450 px;
-	
+	float: left;
 }
 #r{
 padding: 3px;
@@ -24,6 +24,7 @@ margin: 15px;
 border-style:dashed;
 border-bottom-color: 3CB371;
 border-width: 2px;
+	float: left;
 }
 footer{
 height: 300 px; 
