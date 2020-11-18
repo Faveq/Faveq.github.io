@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styl.css">
+<meta charset="utf-8">
+<title>Usługi kosmetyczne</title>
+</head>
+<body>
+    <div id="lewy">
+<div id="lewy1">
+<h2>W ofercie</h2>
+<ul>
+    <li><a href="twarz.html">Zabiegi na twarz</a></li>
+    <ol>
+        <li>Piling,</li>
+        <li>Maska,</li>
+        <li>Regulacja brwi,</li>
+    </ol>
+    <li>Masaż</li>
+    <li>Diety oczyszczajace</li>
+</ul>
+<a href="inex.html">Do strony głównej</a>
+</div>
+<div id="lewy2">
+    <img src="obraz1.png" id="obraz1" alt="Kosmetyczka">
+</div>
+</div>
+<div id="prawy">
+<div id="prawy1">
+<h1>Salon kosmetyczny</h1>
+</div>
+<div id="prawy2">
+<h2>Sprwadź cene swojej wizyty</h2></br>
+<input type="checkbox"  id="pilling">Pilling </br>
+<input type="checkbox"  id="maska">Maska</br>
+<input type="checkbox"  id="masaz">Masaż twarzy</br>
+<input type="checkbox"  id="regulacja">Regulacja brwi </br>
+<button onclick=cena()>Sprawdź cenę</button>
+<p id="kwota"></p>
+</div>
+</div>
+<footer>
+<p>Autor:XXXXXXXXXXX</p>
+</footer>
+<script>
+    function cena() {
+        var p = document.getElementById("pilling");
+        var m = document.getElementById("maska");
+        var a = document.getElementById("masaz");
+        var r = document.getElementById("regulacja");
+        var kwota = 0;
+        if (p.checked == true) {
+            kwota += 45;
+        }
+        if (m.checked == true) {
+            kwota += 30;
+        }
+        if (a.checked == true) {
+            kwota += 20;
+        }
+        if (r.checked == true) {
+            kwota += 5;
+        }
+        document.getElementById("kwota").innerHTML = "Cena zabiegów: " + kwota;
+    }
+</script>
+</body>
+</html>
