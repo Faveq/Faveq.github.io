@@ -212,33 +212,6 @@ h1 {
     margin-top: 300px;
     position: absolute;
 }
-#obrazek1 :hover{
-  margin-left: 0px;
-  margin-top: 0px;
-  position: absolute;
-  width: 350px;
-  height: 197px;
-}
-#obrazek2 :hover{
-margin-left: 0px;
-margin-top: 0px;
-position: absolute;
-width: 350px;
-height: 197px;
-}
-#obrazek3 :hover{
-  margin-left: 0px;
-margin-top: 0px;
-width: 350px;
-height: 197px;
-}
-#obrazek4 :hover{
-margin-left: 0px;
-margin-top: 0px;
-position: absolute;
-width: 350px;
-height: 197px;
-}
 #szkola{
   margin-left: 310px;
   margin-top: -380px;
