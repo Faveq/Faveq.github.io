@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    font-family: Georgia;
+}
+#goraL, #goraP
+{
+background-color: deepskyblue;
+height: 150px;
+font-size: 120%;
+text-align: center;
+float: left;
+}
+#goraL
+{
+    width: 25%;
+}
+#goraP
+{
+    width: 75%;
+}
+#baner, footer
+{
+background-color: tomato;
+text-align: center;
+width: 100%;
+float:left;
+}
+#baner
+{
+    height: 50px;    
+}
+#glownyL, #glownyP
+{
+    background-color: deepskyblue;
+    height: 350px;
+    width: 50%;
+    float: left;
+}
+#glownyP
+{
+    line-height: 25px;
+}
+h1{
+    color: maroon;
+}
+table
+{
+    height: 100px;
+    width: 50%;
+    margin-top: 50px;
+}
+#glownyP input{
+	width: 300px;
+}
+#glownyL input{
+	width: 300px;
+}
+#glownyL img, #glownyP img{
+	margin-top: 25px;
+	margin-right: 50px;
+}
+#glownyL img{
+	float: right;
+	overflow: left;
+}
+#glownyP img{
+	float: left;
+	overflow: right;
+}
