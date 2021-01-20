@@ -212,6 +212,33 @@ h1 {
     margin-top: 300px;
     position: absolute;
 }
+#obrazek1 :hover{
+  margin-left: 0px;
+  margin-top: 0px;
+  position: absolute;
+  width: 350px;
+  height: 197px;
+}
+#obrazek2 :hover{
+margin-left: 0px;
+margin-top: 0px;
+position: absolute;
+width: 350px;
+height: 197px;
+}
+#obrazek3 :hover{
+  margin-left: 0px;
+margin-top: 0px;
+width: 350px;
+height: 197px;
+}
+#obrazek4 :hover{
+margin-left: 0px;
+margin-top: 0px;
+position: absolute;
+width: 350px;
+height: 197px;
+}
 #szkola{
   margin-left: 310px;
   margin-top: -380px;
@@ -239,9 +266,9 @@ text-align: center;
 }
 #projekt{
   color: white;
-  font-size: 26px;
+  font-size: 32px;
   margin-left:150px;
-  margin-top:-465px;
+  margin-top:-5w00px;
 }
 #p{
   color:ghostwhite;
