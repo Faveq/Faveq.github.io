@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="styl3.css">
+	<meta charset="UTF-8"> 
+	<title>Twoje BMI</title>
+</head>
+<body>
+	
+    <div id="logo">
+		<img src="wzor.png" alt="wzor">
+	</div>
+	
+    <div id="baner">
+		<h1>Oblicz swoje BMI</h1>
+	</div>
+	
+    <div id="glowny">
+		<table>
+			<tr>
+				<th>Interpretacja BMI</th>
+				<th>Wartość minimalna</th>
+				<th>Wartość maksymalna</th>
+			</tr>
+			<tr>
+				<td>niedowaga</td>
+				<td>0</td>
+				<td>18</td>
+			</tr>
+			<tr>
+				<td>waga prawidłowa</td>
+				<td>19</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>nadwaga</td>
+				<td>26</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>otyłość</td>
+				<td>31</td>
+				<td>100</td>
+			</tr>
+		</table>
+	</div>
+	
+    <div id="lewy">
+		<h2>Podaj wagę i wzrost</h2>
+		<div class="form">
+			<p>Waga:
+			<input id="waga" type="number" min=1>
+			</p>
+			<p>Wzrost w cm:
+			<input id="wzrost" type="number" min=1>
+			</p>
+			<button onclick="bmi()">Oblicz i zapamiętaj wynik</button>
+			<p id="dane"></p>
+			<p id="wynik"></p>
+		</div>
+	</div>
+
+    <div id="prawy">
+		<img src="rys1.png" alt="ćwiczenia">
+	</div>
+	<footer>
+		<p>Autor: XXXXXXXXXXXXXXXXXX</p>
+		<a href="">Zobacz kwerendy</a>
+	</footer>
+    <script>
+        function bmi() {
+	let waga = document.getElementById("waga").value;
+	let wzrost = document.getElementById("wzrost").value;
+	let bmi = waga / (wzrost*wzrost) * 10000;
+	document.getElementById("dane").innerHTML = "Twoja waga: "+waga+"; Twój wzrost: "+wzrost;
+	document.getElementById("wynik").innerHTML = "Twoje bmi: " + bmi;
+}
+    </script>
+</body>
+</html>
