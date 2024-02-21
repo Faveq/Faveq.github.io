@@ -673,22 +673,24 @@ cursorModifiers.forEach((cursorModifier)=>{
 },{}],"6gdpo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-const $ = require("e813339c3ef446ab");
-$(document).ready(function() {
+var _jquery = require("jquery");
+var _jqueryDefault = parcelHelpers.interopDefault(_jquery);
+const $ = require("7135cd17f43ec39");
+(0, _jqueryDefault.default)(document).ready(function() {
     // Set effect velocity in ms
     var velocity = 50;
     var shuffleElement = document.querySelectorAll(".shuffle");
-    $.each(shuffleElement, function(index, item) {
-        $(item).attr("data-text", $(item).text());
+    (0, _jqueryDefault.default).each(shuffleElement, function(index, item) {
+        (0, _jqueryDefault.default)(item).attr("data-text", (0, _jqueryDefault.default)(item).text());
     });
     var shuffle = function(o) {
-        for(var j, x, i1 = o.length; i1; j = parseInt(Math.random() * i1), x = o[--i1], o[i1] = o[j], o[j] = x);
+        for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
         return o;
     };
     var shuffleText = function(element, originalText) {
         var elementTextArray = [];
         var randomText = [];
-        for(i = 0; i < originalText.length; i++)elementTextArray.push(originalText.charAt([
+        for(var i = 0; i < originalText.length; i++)elementTextArray.push(originalText.charAt([
             i
         ]));
         var repeatShuffle = function(times, index) {
@@ -698,7 +700,7 @@ $(document).ready(function() {
             }
             setTimeout(function() {
                 randomText = shuffle(elementTextArray);
-                for(var i1 = 0; i1 < index; i1++)randomText[i1] = originalText[i1];
+                for(var i = 0; i < index; i++)randomText[i] = originalText[i];
                 randomText = randomText.join("");
                 element.text(randomText);
                 index++;
@@ -707,13 +709,13 @@ $(document).ready(function() {
         };
         repeatShuffle(element.text().length, 0);
     };
-    $(shuffleElement).mouseenter(function() {
-        shuffleText($(this), $(this).data("text"));
+    (0, _jqueryDefault.default)(shuffleElement).mouseenter(function() {
+        shuffleText((0, _jqueryDefault.default)(this), (0, _jqueryDefault.default)(this).data("text"));
     });
 });
-exports.default = $;
+exports.default = (0, _jqueryDefault.default);
 
-},{"e813339c3ef446ab":"hgMhh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hgMhh":[function(require,module,exports) {
+},{"jquery":"hgMhh","7135cd17f43ec39":"hgMhh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hgMhh":[function(require,module,exports) {
 /*!
  * jQuery JavaScript Library v3.6.3
  * https://jquery.com/

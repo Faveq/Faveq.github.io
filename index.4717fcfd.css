@@ -12277,6 +12277,7 @@ nav a.active .text-link {
   justify-content: center;
   align-items: flex-end;
   gap: 5%;
+  margin-bottom: 5vh;
   font-size: 200%;
   font-weight: 700;
   display: flex;
@@ -12318,20 +12319,31 @@ nav a.active .text-link {
 
 .second-panel {
   height: 100%;
+  width: 100%;
   -webkit-user-select: none;
   user-select: none;
   -khtml-user-select: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5vh;
   padding: 10%;
   display: flex;
 }
 
 .second-panel-content {
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   display: flex;
+}
+
+@media screen and (max-width: 755px) {
+  .second-panel-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+  }
 }
 
 .card {
@@ -12454,14 +12466,56 @@ label[for="progress"] {
 }
 
 .third-panel {
-  height: 100%;
+  height: 70%;
   -webkit-user-select: none;
   user-select: none;
   -khtml-user-select: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10%;
+  margin-bottom: 5vh;
+  display: flex;
+}
+
+.third-panel .card {
+  width: 150pt;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+}
+
+.third-panel .card-text {
+  font-size: 1.2em;
+}
+
+.third-panel .btn {
+  background-color: #383838;
+}
+
+.third-panel .check-btn {
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: none;
+  color: #e0e2db;
+  background-color: #1d1d1d;
+  border: none;
+  padding: 10px 30px;
+  font-size: 1.2em;
+  transition: all .2s linear;
+  box-shadow: .3em .3em #e0e2db, inset .3em .3em #e0e2db;
+}
+
+.third-panel .check-btn:hover, .third-panel .check-btn:focus {
+  cursor: none;
+  color: #1d1d1d;
+  box-shadow: 0 0 #e0e2db, inset 6em 3.5em #e0e2db;
+}
+
+.projects-cards {
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
   display: flex;
 }
 
@@ -12469,67 +12523,8 @@ label[for="progress"] {
   font-size: medium;
 }
 
-.small-card {
-  width: 18rem;
-  height: 4.5rem;
-  background-color: #e9c061a1;
-  border-radius: 50px;
-  justify-content: space-between;
-  align-items: center;
-  margin: 5em;
-  padding: 1%;
-  display: flex;
-}
-
-.small-card .play-btn {
-  width: 3.5em;
-  height: 3.5em;
-  background-color: #e6af2e;
-  border-color: #e0e2db;
-  margin: 0;
-  transition: all .3s linear;
-}
-
-.small-card .play-btn:hover {
-  transform: scale(1.05);
-}
-
-.small-card-track {
-  align-items: center;
-  display: flex;
-}
-
-.thumbnail {
-  width: 5em;
-  height: 5em;
-  background-color: #faebd7;
-  border-radius: 50%;
-}
-
-.thumbnail img {
-  width: 100%;
-  border-radius: 50%;
-}
-
-.small-card-info {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: relative;
-  left: 20%;
-}
-
-.track-name {
-  color: #1d1d1d;
-  margin: 0% auto;
-  font-size: medium;
-  font-weight: 800;
-}
-
-.band-name {
-  color: #1d1d1d;
-  margin: 0%;
+.card-body[for="project"] {
+  background-color: red;
 }
 
 .fourth-panel {
@@ -12540,6 +12535,7 @@ label[for="progress"] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5vh;
   padding: 10%;
   display: flex;
 }
@@ -12603,6 +12599,14 @@ label[for="progress"] {
   cursor: none;
   color: #1d1d1d;
   box-shadow: 0 0 #e6af2e, inset 6em 3.5em #e6af2e;
+}
+
+textarea {
+  font-size: 1.3em;
+}
+
+textarea::placeholder {
+  font-size: .9em;
 }
 
 footer {

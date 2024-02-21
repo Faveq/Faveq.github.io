@@ -1,2 +1,0 @@
-# Faveq.github.io
-Portfolio
