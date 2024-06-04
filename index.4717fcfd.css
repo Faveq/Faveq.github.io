@@ -12345,9 +12345,18 @@ nav a.active .text-link {
     gap: 2vh;
   }
 
-  .projects-cards {
+  .thrid-panel {
+    height: auto;
+  }
+
+  .thrid-panel .projects-cards {
     flex-direction: column;
     gap: 30px;
+  }
+
+  .thrid-panel .card {
+    height: min-content;
+    width: 30%;
   }
 
   .form {
@@ -12476,24 +12485,32 @@ label[for="progress"] {
 }
 
 .third-panel {
-  height: 70%;
+  height: 100vh;
+  width: 70%;
   -webkit-user-select: none;
   user-select: none;
   -khtml-user-select: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5vh;
-  padding-left: 15%;
-  padding-right: 15%;
+  margin-bottom: 30px;
+  margin-left: 15%;
   display: flex;
+  overflow: scroll;
 }
 
 .third-panel .card {
-  width: 150pt;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 30%;
+  width: 10vw;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  flex: 200px;
   margin: 0;
+}
+
+.third-panel .card-body {
+  background-color: #e6af2e;
+  border-radius: 5px;
 }
 
 .third-panel .card-text {
@@ -12526,17 +12543,15 @@ label[for="progress"] {
 .projects-cards {
   width: 100%;
   height: auto;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  gap: 30px;
   display: flex;
 }
 
 .projects-p {
   font-size: medium;
-}
-
-.card-body[for="project"] {
-  background-color: red;
 }
 
 .fourth-panel {
@@ -12550,6 +12565,7 @@ label[for="progress"] {
   margin-bottom: 5vh;
   padding: 10%;
   display: flex;
+  position: relative;
 }
 
 .fourth-panel > form {
